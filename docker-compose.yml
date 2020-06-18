@@ -20,7 +20,7 @@ services:
   nginx:
     build:
         context: ../
-        dockerfile: elite_backend/nginx/Dockerfile
+        dockerfile: EF_Prod_Backend/nginx/Dockerfile
     container_name: nginx-elite
     depends_on:
      - pose-backend-service_flask-elite
